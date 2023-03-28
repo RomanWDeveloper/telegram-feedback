@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TGchat RV</title>
+        <style>
+            body {
+                height: 100vh;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            form {
+                width: 100%;
+                max-width: 500px;
+                padding: 30px;
+                margin: auto;
+                /* margin-top: 50%; */
+                /* transform: translateY(-50%); */
+                border-radius: 10px;
+                box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+            }
+
+            input,
+            button {
+                display: block;
+                margin-bottom: 10px;
+                padding: 10px;
+                border-radius: 5px;
+                color: #000;
+                background-color: #fff;
+                border: none;
+                box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            }
+
+            input {
+                width: 100%;
+            }
+
+            button {
+                background-color: #008cba;
+                color: #fff;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <form name="tgform" action="">
+            <h1>Telegram feedback form</h1>
+            <input type="text" name="name" />
+            <input type="text" name="msg" />
+            <button type="submit">Отправить форму</button>
+        </form>
+        <script src="feed.js"></script>
+    </body>
+</html>
