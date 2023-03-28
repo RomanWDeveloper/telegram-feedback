@@ -1,5 +1,3 @@
-# telegram-feedback
-
 <h1 align="center">telegram-feedback</h1>
 
 <h2 align="left">RU</h2>
